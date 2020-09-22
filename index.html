@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Лабораторная работа №1 по Веб-программированию</title>
+	<meta charset="UTF-8" >
+	<link rel = "stylesheet" href ="styles.css">
+</head>
+<body>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" class="page_table">
+		<tr class="shapka">
+			<top> <th colspan=2> Кузнеченков Алексей Сергеевич, Р3212, вариант 2317 </th></top>
+		</tr>
+		<tr>
+			<th width = 15%> <img src="graph.png"; hspace="20"; height="300"; width="300" > </th>
+			<th width = 85%> 
+			Выберите значение Х: <br>
+			 <input type="radio" id="x1" value="-4" name="x" class="X_group"> -4
+			 <input type="radio" id="x2" value="-3" name="x" class="X_group"> -3
+			 <input type="radio" id="x3" value="-2" name="x" class="X_group"> -2
+			 <input type="radio" id="x4" value="-1" name="x" class="X_group"> -1
+			 <input type="radio" id="x5" value="0" name="x" class="X_group" checked> 0
+			 <input type="radio" id="x6" value="1" name="x" class="X_group"> 1
+			 <input type="radio" id="x7" value="2" name="x" class="X_group"> 2
+			 <input type="radio" id="x8" value="3" name="x" class="X_group"> 3
+			 <input type="radio" id="x9" value="4" name="x" class="X_group"> 4 <br>
+			 Выберите значение Y (от -3 до 3): <br>
+			 <input type="text", name="y" id="y" maxlength="8"> <br>
+			 Выберите значение R: <br>
+			 <input type="radio" id="r1" value="1" name="r" class="R_group"> 1
+			 <input type="radio" id="r2" value="2" name="r" class="R_group"> 2
+			 <input type="radio" id="r3" value="3" name="r" class="R_group" checked> 3
+			 <input type="radio" id="r4" value="4" name="r" class="R_group"> 4
+			 <input type="radio" id="r5" value="5" name="r" class="R_group"> 5 <br>
+			 <input type="button" value="Отправить" id="submitButton" class="submitButton"> 
+			</th>
+		</tr> </table>
+		<tr>
+			<th colspan="1" width =  100%> 
+                   <table align="center" class="result_table">
+    <tr>
+        <th width="15%">X</th>
+        <th width="15%">Y</th>
+        <th width="15%">R</th>
+        <th width="15%">Время запуска</th>
+        <th width="15%">Время работы</th>
+        <th width="15%">Результат</th>
+    </tr> </table> </th>
+		</tr>
+	</table>
+	<script src="script.js"></script>
+</body>
